@@ -23,9 +23,10 @@
     margin-right: -12px;
     margin-left: -12px;
 }
-.height_100{
+
+.height_100 {
     height: 71px;
-    background-color: #F6E300;
+
     z-index: 8;
 }
 
@@ -218,6 +219,7 @@ button {
     padding: 15px 32px;
     background: #F4241E;
     border-radius: 10px;
+    border: none;
 }
 
 .padding_top_bottom {
@@ -237,7 +239,7 @@ button {
 
 .padding_top_bottom4 {
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 .padding_top_bottom1 {
@@ -256,7 +258,12 @@ button {
 }
 
 .padding_bottom {
-    padding-bottom: 71px;
+    padding-bottom: 20px;
+}
+
+
+.margin_bottom4{
+    margin-bottom: 70px;
 }
 
 
@@ -266,55 +273,6 @@ button {
 
 .relative {
     position: relative;
-}
-
-.burger_position1 {
-    position: absolute;
-    left: 6%;
-    top: 4%;
-}
-
-
-.burger_position2 {
-    position: absolute;
-    left: 66%;
-    top: 13%;
-}
-
-.burger_position3 {
-    position: absolute;
-    left: 17%;
-    top: 58%;
-}
-
-.burger_position4 {
-    position: absolute;
-    left: 86%;
-    top: 44%;
-}
-
-.burger_position5 {
-    position: absolute;
-    left: 0%;
-    top: 48%;
-}
-
-.burger_position6 {
-    position: absolute;
-    left: 25%;
-    top: 5%;
-}
-
-.burger_position7 {
-    position: absolute;
-    left: 75%;
-    top: 54%;
-}
-
-.burger_position8 {
-    position: absolute;
-    left: 84%;
-    top: 0%;
 }
 
 .margin_top {
@@ -328,7 +286,7 @@ button {
 .box {
     padding: 35px 33px;
     background: #FFF03F;
-    width: 920px;
+    width: 100%;
     margin-top: 7px;
 }
 
@@ -343,13 +301,8 @@ button {
 }
 
 .margin_top_bottom {
-    margin-top: 70px;
-    margin-bottom: 27px;
-}
-
-.logo_position {
-    position: absolute;
-    top: 60%;
+    margin-top: 46px;
+    margin-bottom: 6px;
 }
 
 .padding_bottom1 {
@@ -357,7 +310,11 @@ button {
 }
 
 .margin_right1 {
-    margin-right: 31px;
+    margin-right: 17px;
+}
+
+.img_transform{
+    transform: translateY( -21px);
 }
 
 .btn_connectwallet {
@@ -365,6 +322,11 @@ button {
     background-color: #ffffff;
     border-radius: 10px;
     color: #F4241E;
+}
+
+
+.w-40{
+    width: 40%;
 }
 
 .color_red {
@@ -382,67 +344,72 @@ button {
 }
 
 
-.z_index{
+.z_index {
     z-index: 5;
 }
 
-.padding_bottom4{
+.padding_bottom4 {
     padding-bottom: 15px;
 }
 
-.padding_top_bottom5{
+.padding_top_bottom5 {
     padding-top: 70px;
     padding-bottom: 61px;
 }
 
 
-.padding_top_bottom6{
+.padding_top_bottom6 {
     padding-top: 100px;
     padding-bottom: 40px;
 }
 
-.padding_top3{
-    padding-top: 48px;
+.padding_bottom6 {
+    padding-bottom: 90px;
 }
 
-.padding_bottom5{
+.padding_top3 {
+    padding-top: 48px;
+    padding-bottom: 25px;
+}
+
+.padding_bottom5 {
     padding-bottom: 38px;
 }
 
 .roadmap_burger1 {
     position: absolute;
-    left: 10%;
-    top: 10%;
+    left: 6%;
+    top: 39%;
 }
 
 .roadmap_burger2 {
     position: absolute;
     left: 57%;
-    top: 27%;
+    top: 21%;
 }
 
 .roadmap_burger3 {
     position: absolute;
-    left: 7%;
-    top: 57%;
+    left: 3%;
+    top: 6%;
 }
 
 .roadmap_burger4 {
     position: absolute;
-    left: 57%;
-    top: 74%;
+    left: 58%;
+    top: 75%;
 }
 
 
-.position_sticky{
+.position_sticky {
     position: sticky;
     top: 0%;
 }
 
 .roadmap_burger5 {
     position: absolute;
-    left: -1%;
-    top: -3%;
+    left: 2%;
+    top: 74%;
 }
 
 .roadmap_burger6 {
@@ -453,24 +420,153 @@ button {
 
 .roadmap_burger7 {
     position: absolute;
-    left: 50%;
-    top: 85%;
+    left: 53%;
+    top: 88%;
 }
 
 .roadmap_burger8 {
     position: absolute;
-    left: 52%;
-    top: -3%;
+    left: 47%;
+    top: 10%;
 }
 
-.z_index-4{
+.z_index-4 {
     z-index: 4;
 }
 
-.margin_right_left{
+.margin_right_left {
     margin-right: 20px;
     margin-left: 20px;
 }
+
+
+
+
+
+.burger_position1_md {
+    position: absolute;
+    left: 7%;
+    top: 14%;
+    width: 9%;
+}
+
+.burger_position2_md {
+    position: absolute;
+    left: 85%;
+    top: 26%;
+    width: 9%;
+}
+
+.burger_position3_md {
+    position: absolute;
+    left: 15%;
+    top: 73%;
+    width: 9%;
+}
+
+.burger_position4_md {
+    position: absolute;
+    left: 73%;
+    top: 78%;
+    width: 9%;
+}
+
+.burger_position5_md {
+    position: absolute;
+    left: 2%;
+    top: 64%;
+    width: 9%;
+}
+
+.burger_position6_md {
+    position: absolute;
+    left: 22%;
+    top: 5%;
+    width: 9%;
+}
+
+.burger_position7_md {
+    position: absolute;
+    left: 83%;
+    top: 62%;
+    width: 9%;
+}
+
+.burger_position8_md {
+    position: absolute;
+    left: 80%;
+    top: 4%;
+    width: 9%;
+}
+
+.logo_position {
+    position: absolute;
+    top: 59%;
+    left: 29%;
+    width: 40%;
+}
+
+.col_12_sm{
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.col_6_sm {
+    width: 50%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.padding_top_bottom2_sm {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.margin_top_bottom0{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.margin_top_9{
+    margin-top: 50px;
+}
+
+.timeline::after {
+    left: 31px;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timelineContainer {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+}
+.left {
+    left: 0;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+.padding_top_bottom7{
+    padding: 50px 60px;
+}
+
 
 .timeline {
     position: relative;
@@ -481,14 +577,12 @@ button {
     content: '';
     position: absolute;
     width: 6px;
-    background-color:red ;
+    background-color: red;
     top: 0;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
 }
-
-
 .timelineContainer {
     padding: 10px 40px;
     position: relative;
@@ -503,24 +597,28 @@ button {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid white;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
     top: 0;
     border-radius: 50%;
     z-index: 1;
 }
 
+
 .left {
     left: 0;
 }
+
 
 .right {
     left: 50%;
 }
 
+
 .right::after {
     left: -16px;
 }
+
 
 .content {
     padding: 20px 30px;
@@ -529,9 +627,222 @@ button {
     border-radius: 6px;
 }
 
-@media (max-width: 1200px) {
 
-    .nav_hide{
+
+@media (min-width:576px) {
+    .img_transform{
+        transform: translateY( -47px);
+    }
+
+}
+
+
+
+@media (min-width:768px) {
+    .width_md_logo {
+        width: 80%;
+    }
+
+    .logo_md_position{
+        position: absolute;
+        top: 61%;
+        left: 33%;
+        width: 32%;
+    }
+
+    .col_md_6{
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .width_footer_img{
+        width: 61%;
+    }
+
+  
+    
+}
+
+@media (min-width:992px) {
+    .burger_position1 {
+        position: absolute;
+        left: 6%;
+        top: 4%;
+    }
+
+
+    .burger_position2 {
+        position: absolute;
+        left: 66%;
+        top: 6%;
+    }
+
+    .burger_position3 {
+        position: absolute;
+        left: 17%;
+        top: 58%;
+    }
+
+    .burger_position4 {
+        position: absolute;
+        left: 86%;
+        top: 44%;
+    }
+
+    .burger_position5 {
+        position: absolute;
+        left: 0%;
+        top: 48%;
+    }
+
+    .burger_position6 {
+        position: absolute;
+        left: 25%;
+        top: 5%;
+    }
+
+    .burger_position7 {
+        position: absolute;
+        left: 75%;
+        top: 54%;
+    }
+
+    .burger_position8 {
+        position: absolute;
+        left: 84%;
+        top: 0%;
+    }
+
+    .col_lg_7 {
+        width: 58.31%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+    .col_lg_5 {
+        width: 41.65%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .col_lg_3{
+        width: 25%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .roadmap_burger1 {
+        position: absolute;
+        left: 6%;
+        top: 39%;
+    }
+    
+    .roadmap_burger2 {
+        position: absolute;
+        left: 66%;
+        top: 21%;
+    }
+    
+    .roadmap_burger3 {
+        position: absolute;
+        left: 21%;
+        top: 6%;
+    }
+    
+    .roadmap_burger4 {
+        position: absolute;
+        left: 85%;
+        top: 75%;
+    }
+    
+    
+    .position_sticky {
+        position: sticky;
+        top: 0%;
+    }
+    
+    .roadmap_burger5 {
+        position: absolute;
+        left: 2%;
+        top: 74%;
+    }
+    
+    .roadmap_burger6 {
+        position: absolute;
+        left: 26%;
+        top: 52%;
+    }
+    
+    .roadmap_burger7 {
+        position: absolute;
+        left: 65%;
+        top: 76%;
+    }
+    
+    .roadmap_burger8 {
+        position: absolute;
+        left: 84%;
+        top: 5%;
+    }
+
+    .accordian_width{
+        width: 70%;
+    }
+
+    .img_transform{
+        transform: translateY( -80px);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .timeline::after {
+        left: 31px;
+    }
+
+
+    .timelineContainer {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+ 
+    .timelineContainer::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+  
+    .left::after{
+        left: 15px;
+    }
+
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .nav_hide {
         opacity: 0;
         position: fixed;
         left: 100%;
@@ -545,202 +856,29 @@ button {
         background-color: #F6E300;
         gap: 15px;
     }
-
-
-    label[for="checkbox"]{
+    
+    label[for="checkbox"] {
         height: 27px;
-    width: 28px;
+        width: 28px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         z-index: 4;
     }
-
-    label[for="checkbox"]>span{
+    
+    label[for="checkbox"]>span {
         height: 5px;
         width: 27px;
         border-radius: 40px;
         background-color: black;
     }
-
-
-    input[type="checkbox"]:checked+div.nav_hide{
+    
+    input[type="checkbox"]:checked+div.nav_hide {
         left: 0%;
         opacity: 1;
         z-index: 3;
     }
-
-
-    
-
-
-
-} 
-
-@media (max-width: 992px){
-
-    .burger_position1_md {
-        position: absolute;
-        left: 7%;
-        top: 14%;
-        width: 9%;
-    }
-    
-    .burger_position2_md {
-        position: absolute;
-        left: 85%;
-        top: 26%;
-        width: 9%;
-    }
-    
-    .burger_position3_md {
-        position: absolute;
-        left: 15%;
-        top: 73%;
-        width: 9%;
-    }
-    
-    .burger_position4_md {
-        position: absolute;
-        left: 73%;
-        top: 78%;
-        width: 9%;
-    }
-    
-    .burger_position5_md {
-        position: absolute;
-        left: 2%;
-        top: 64%;
-        width: 9%;
-    }
-    
-    .burger_position6_md {
-        position: absolute;
-        left: 22%;
-        top: 5%;
-        width: 9%;
-    }
-    
-    .burger_position7_md {
-        position: absolute;
-        left: 83%;
-        top: 62%;
-        width: 9%;
-    }
-    
-    .burger_position8_md {
-        position: absolute;
-        left: 80%;
-        top: 4%;
-        width: 9%;
-    }
-
-    .w_100_md{
-        width: 100%;
-    }
-
-    
-    .logo_position_md {
-        width: 44%;
-
-    }
-    .col_12_md {
-        width: 100%;
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-
-    .margin_top_md{
-        margin-top: 100px;
-    }
-
-    .margin_top_md1{
-        margin-top: 5px;
-    }
-
-    .col_6_md {
-        width: 50%;
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-
-    .input_width_md{
-        max-width: 100%;
-        min-height: 100%;
-    }
-
-   
 }
 
-
-
-
-@media (max-width: 768px){
-    .col_12_sm{
-        width: 100%;
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-
-    .col_6_sm {
-        width: 50%;
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-
-    .padding_top_bottom2_sm {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .margin_top_sm{
-        margin-top: 1px;
-        margin-bottom: 40px;
-    }
-
-    .left-container_md {
-        left: 0%;
-    }
-
-    .timeline::after {
-        left: 31px;
-    }
-
-    .timelineContainer {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-
-
-    .timelineContainer::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-    }
-
-    .left::after,
-    .right::after {
-        left: 15px;
-    }
-
-  
-    .right {
-        left: 0%;
-    }
-}
-
-@media (max-width: 576px){
-    .w_100_xsm{
-        width: 100%;
-    }
-
-   
-}
-
-@media (max-width: 320px){
-    
-}
 
 
