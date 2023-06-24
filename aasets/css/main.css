@@ -182,6 +182,12 @@
     font-size: 75px;
 }
 
+.font{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .align_center {
     align-items: center;
 }
@@ -218,6 +224,7 @@
 button {
     padding: 15px 32px;
     background: #F4241E;
+    color: #ffffff;
     border-radius: 10px;
     border: none;
 }
@@ -391,7 +398,7 @@ button {
 .roadmap_burger3 {
     position: absolute;
     left: 3%;
-    top: 6%;
+    top: 15%;
 }
 
 .roadmap_burger4 {
@@ -421,7 +428,7 @@ button {
 .roadmap_burger7 {
     position: absolute;
     left: 53%;
-    top: 88%;
+    top: 81%;
 }
 
 .roadmap_burger8 {
@@ -525,11 +532,12 @@ button {
 
 .margin_top_bottom0{
     margin-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .margin_top_9{
-    margin-top: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .timeline::after {
@@ -546,6 +554,8 @@ button {
     margin-left: -3px;
 }
 
+
+
 .timelineContainer {
     width: 100%;
     padding-left: 70px;
@@ -560,6 +570,7 @@ button {
     background-color: white;
     position: relative;
     border-radius: 6px;
+    width: 225%;
 }
 
 
@@ -573,16 +584,7 @@ button {
     width: 100%;
 }
 
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: red;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
+
 .timelineContainer {
     padding: 10px 40px;
     position: relative;
@@ -627,12 +629,53 @@ button {
     border-radius: 6px;
 }
 
+.right{
+    left: 0px;
+}
+.right::after{
+    left: -2px;
+}
+.timeline::after{
+left: 15px;
+}
+
+.fs-24{
+    font-size: 12px;
+}
+
+
+.left::after {
+    left: -3px;
+}
+
+
+
+
 
 
 @media (min-width:576px) {
     .img_transform{
         transform: translateY( -47px);
     }
+
+    .col_sm_6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .fw-sm-600 {
+        font-weight: 600;
+    }
+
+    .ff-sm-poppins {
+        font-family: 'Poppins';
+    }
+
+    .fs-sm-18 {
+        font-size: 18px;
+    }
+ 
 
 }
 
@@ -660,7 +703,51 @@ button {
         width: 61%;
     }
 
-  
+    
+    .col_md_7 {
+        width: 58.31%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+    .col_md_5 {
+        width: 41.65%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .col_md_4 {
+        width: 33.33%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .right{
+        left: 50%;
+    }
+    .timeline::after{
+        left: 50%;
+    }
+
+    .left::after {
+        left: 96%;
+    }
+   
+
+    .content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        width: 100%;
+    }
+
+
+    .right::after{
+        left: -16px;
+    }
+
+   
+        
+    
     
 }
 
@@ -794,51 +881,33 @@ button {
         transform: translateY( -80px);
     }
 
-
-}
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-
-
-    .timeline::after {
-        left: 31px;
+    .margin_top_bottom0-lg{
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
-
-    .timelineContainer {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
+    .left::after {
+        left: 97%;
     }
 
- 
-    .timelineContainer::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
+    .font-lg{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 24px;
     }
 
-  
-    .left::after{
-        left: 15px;
-    }
-
-    .right::after {
-        left: 15px;
-    }
-
-    .right {
-        left: 0%;
+    .fontsize-lg{
+font-size: 27px;
     }
 }
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 992px) {
