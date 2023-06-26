@@ -332,8 +332,8 @@ button {
 }
 
 
-.w-40{
-    width: 40%;
+.w-38{
+    width: 38%;
 }
 
 .color_red {
@@ -639,13 +639,15 @@ button {
 left: 15px;
 }
 
-.fs-24{
-    font-size: 12px;
-}
+
 
 
 .left::after {
     left: -3px;
+}
+
+.w_78{
+    width: 78%;
 }
 
 
@@ -686,6 +688,10 @@ left: 15px;
         width: 80%;
     }
 
+    .fs-md-24{
+        font-size: 24px;
+    }
+
     .logo_md_position{
         position: absolute;
         top: 61%;
@@ -700,7 +706,7 @@ left: 15px;
     }
 
     .width_footer_img{
-        width: 61%;
+        width: 45%;
     }
 
     
@@ -745,7 +751,10 @@ left: 15px;
         left: -16px;
     }
 
-   
+    .pd-bt-tp-md{
+        padding-top: 36px;
+        padding-bottom: 35px;
+    }
         
     
     
@@ -785,7 +794,7 @@ left: 15px;
 
     .burger_position6 {
         position: absolute;
-        left: 25%;
+        left: 19%;
         top: 5%;
     }
 
